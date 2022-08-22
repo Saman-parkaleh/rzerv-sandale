@@ -1,0 +1,90 @@
+@font-face {
+    font-family: face;
+    src: url(nst.ttf);
+}
+
+*{
+    font-family:fase ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #42caff 0%, #e81aff 100%);
+}
+.center{
+   
+
+
+
+}
+.center li{
+  font-family:face;
+    margin: 2px 3px;
+    list-style-type: none; 
+    font-size: 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.center li input{
+padding: 5px;
+font-size: 15px;
+border-radius: 5px;
+border: none;
+width: 100px;
+color:red;
+box-shadow: 5px 5px 5px 2px black;
+margin:10px 15px;
+
+}
+/* From uiverse.io by @ercnersoy */
+button {
+    width: 80px;
+    height: 20px;
+    padding: 1rem 2rem;
+    border: 0;
+    box-shadow: 0px 0px 40px 0px red;
+    font-weight: bolder;
+    color: white;
+    border-radius: 0.3rem;
+    background-color: red;
+    letter-spacing: .2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   button:hover {
+    animation: changeBg 1s infinite;
+    -webkit-animation-duration: 10s;
+   }
+   
+   @keyframes changeBg {
+    0%,
+       100% {
+     box-shadow: 0px 0px 40px 0px red;
+    }
+   
+    25% {
+     box-shadow: 0px 0px 40px 0px turquoise;
+     background-color: turquoise;
+    }
+   
+    50% {
+     box-shadow: 0px 0px 40px 0px purple;
+     background-color: purple;
+    }
+   
+    75% {
+     box-shadow: 0px 0px 40px 0px rgb(191, 204, 11);
+     background-color: rgb(191, 204, 11);
+    }
+   }
